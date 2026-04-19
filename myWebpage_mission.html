@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>미션 완료! 나의 프로필</title>
+    <style>
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            /* [미션 1] 배경색을 lightgreen으로 변경했습니다 */
+            background-color: lightgreen; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+        }
+        .profile-card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 380px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2c3e50; margin-top: 15px; }
+        p { color: #7f8c8d; line-height: 1.6; }
+        .hobby-list {
+            text-align: left;
+            display: inline-block;
+            background: #f9f9f9;
+            padding: 15px 40px;
+            border-radius: 10px;
+        }
+        .hobby-list li {
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #27ae60;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover { background-color: #219150; }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="C:\Users\user\Downloads\graident-ai-robot-vectorart\Graident Ai Robot.jpg" alt="나의 캐릭터">
+
+        <h1>코딩 마스터 [이름]</h1>
+        <p>미션을 모두 클리어했어요! 🎉<br>
+           이제 HTML 태그를 자유자재로 다룰 수 있습니다.</p>
+
+        <hr>
+
+        <h3>나의 취미 (Top 5)</h3>
+        <ul class="hobby-list">
+            <li>🎮 최신 게임 랭킹 올리기</li>
+            <li>📚 판타지 소설 읽기</li>
+            <li>🎧 좋아하는 아이돌 노래 듣기</li>
+            <li>⚽ 점심시간에 축구하기</li>
+            <li>💻 파이썬 코딩 공부하기</li>
+        </ul>
+
+        <br>
+
+        <a href="https://www.google.com" target="_blank">구글에서 더 검색하기</a>
+    </div>
+
+</body>
+</html>
